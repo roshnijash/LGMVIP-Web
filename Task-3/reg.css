@@ -1,0 +1,98 @@
+/* DONE BY DEBARATI */
+
+table{
+    margin-top: 80px;
+    text-align: center;
+    background: rgba(158, 240, 102, 0.747);
+    color: rgb(9, 10, 10);
+ 
+}
+
+table, th, td {
+    border: 1px solid black;
+        text-align: left;
+        padding: 8px;
+    /* border-radius: 10px; */
+    /* border-collapse: collapse; */
+    /* border-style: dotted; */
+
+  }
+tr, th, td{
+    border: 1px solid #380328;
+}
+
+
+#show lable, #show input{
+        padding: 500px;
+
+}
+ #btna td input{
+    width: 100%;
+    color: rgb(255, 0, 0);
+    background-color: rgb(208, 255, 255);
+    padding: 2%;
+} 
+body{
+    background-color: rgb(255, 255, 255);
+}
+.vl {
+    border-left: 6px solid green;
+    height: 600px;
+  }
+
+
+
+  /* style the footer */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #380328;
+    color: white;
+    text-align: center;
+  }
+
+
+.social-icon {
+width: 4.5rem;
+margin: 1rem 0.5rem;
+padding: 1rem;
+border-radius: 1rem;
+}
+
+.footer-desc {
+color: white;
+font-size: 0.9em;
+}
+
+
+
+.fa {
+  padding: 0px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 100%;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+.fa-instagram {
+  background: #d82dd8;
+  color: rgb(255, 249, 255);
+}

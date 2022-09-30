@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="calculator.js"></script>
+    <link rel="stylesheet" href="calculator.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <br><br>
+    <center>
+        <div id="DebaratiClock" class="clock" onload="showTime()">
+            <script src="clock.js"></script>
+        </div>
+    </center>
+    
+<br><br>
+    <div>
+        <div class=title>
+            <h1>DEBARATI'S CALCULATOR</h1>
+        </div>
+        <br>
+        <br>
+        <div>
+            <table border="4" class=titl>
+                <tr>
+                    <td colspan="3"><input type="text" id="result" /></td>
+                    <td><input type="button" value="AC" onclick="clr()" /></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="1" onclick="dis('1')" /></td>
+                    <td><input type="button" value="2" onclick="dis('2')" /></td>
+                    <td><input type="button" value="3" onclick="dis('3')" /></td>
+                    <td><input type="button" value="/" onclick="dis('/')" /></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td><input type="button" value="4" onclick="dis('4')" /></td>
+                    <td><input type="button" value="5" onclick="dis('5')" /></td>
+                    <td><input type="button" value="6" onclick="dis('6')" /></td>
+                    <td><input type="button" value="-" onclick="dis('-')" /></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td><input type="button" value="7" onclick="dis('7')" /></td>
+                    <td><input type="button" value="8" onclick="dis('8')" /></td>
+                    <td><input type="button" value="9" onclick="dis('9')" /></td>
+                    <td><input type="button" value="+" onclick="dis('+')" /></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td><input type="button" value="." onclick="dis('.')" /></td>
+                    <td><input type="button" value="0" onclick="dis('0')" /></td>
+                    <td><input type="button" value="=" onclick="solve()" /></td>
+                    <td><input type="button" value="*" onclick="dis('*')" /></td>
+                </tr>
+            </table>
+
+        </div>
+
+        <footer class="footer">
+            <div class="container-sm">
+                <center>
+                    <br>
+                    <a href="https://www.facebook.com/debarati.jash.7" class="fa fa-facebook"></a>
+                    <a href="https://www.linkedin.com/in/debarati-jash-9ab87a201/" class="fa fa-linkedin"></a>
+                    <a href="https://www.instagram.com/rsni_23/" class="fa fa-instagram"></a>
+                    <a href="https://github.com/roshnijash" class="fa fa-github"></a>
+    
+                </center>
+            </div>
+            <p class="footer-desc">This project is done by <strong>Debarati Jash</strong> as task4 of Let's Grow More</a>
+            </p>
+        </footer>
+
+</body>
+
+</html>
